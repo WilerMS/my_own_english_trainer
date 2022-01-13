@@ -10,7 +10,7 @@ const Profile = () => {
 
     const {setActiveNavLink} = useContext(ThemeContext);
 
-    useEffect(() => setActiveNavLink(3), []);
+    useEffect(() => setActiveNavLink(3), [setActiveNavLink]);
 
     return (
         <PageContainer>

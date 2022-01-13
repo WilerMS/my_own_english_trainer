@@ -7,8 +7,7 @@ import PageContainer from './../components/styled/PagesContainer'
 const Home = () => {
 
     const {setActiveNavLink} = useContext(ThemeContext);
-
-    useEffect(() => setActiveNavLink(0), []);
+    useEffect(() => setActiveNavLink(0), [setActiveNavLink]);
 
     return (
         <PageContainer>

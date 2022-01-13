@@ -7,8 +7,7 @@ import PageContainer from './../components/styled/PagesContainer'
 const Games = () => {
 
     const {setActiveNavLink} = useContext(ThemeContext);
-
-    useEffect(() => setActiveNavLink(2), []);
+    useEffect(() => setActiveNavLink(2), [setActiveNavLink]);
 
     return (
         <PageContainer>

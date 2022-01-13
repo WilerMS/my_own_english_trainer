@@ -9,7 +9,7 @@ import WordPanel from './../components/WordPanel'
 const Learn = () => {
 
     const {setActiveNavLink} = useContext(ThemeContext)
-    useEffect(() => setActiveNavLink(1), []);
+    useEffect(() => setActiveNavLink(1), [setActiveNavLink]);
 
     const [currentWord, setCurrentWord] = useState(Math.floor(Math.random() * 2999))
 
