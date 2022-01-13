@@ -15,10 +15,10 @@ const NavBar = () => {
 
     return (
         <Container indicatorIndex={activeNavLink} indicatorColor={indicatorColor}>
-            <NavLink path="/my_own_english_trainer/" name='Home' index={0} icon={homeIcon}/>
-            <NavLink path="/my_own_english_trainer/learn" name='Learn' index={1} icon={practiceIcon}/>
-            <NavLink path="/my_own_english_trainer/games" name='Games' index={2} icon={gamesIcon} />
-            <NavLink path="/my_own_english_trainer/profile" name='Profile' index={3} icon={profileIcon} />
+            <NavLink path="/" name='Home' index={0} icon={homeIcon}/>
+            <NavLink path="/learn" name='Learn' index={1} icon={practiceIcon}/>
+            <NavLink path="/games" name='Games' index={2} icon={gamesIcon} />
+            <NavLink path="/profile" name='Profile' index={3} icon={profileIcon} />
             <div className="indicator"></div>
         </Container>
     )

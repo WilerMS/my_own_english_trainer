@@ -19,12 +19,12 @@ const App = () => {
     return (
       <Container bg={background} className='App'>
         <Wave/>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Routes>
-            <Route index path="/my_own_english_trainer/" element={<Home/>} />
-            <Route index path="/my_own_english_trainer/learn" element={<Learn/>} />
-            <Route index path="/my_own_english_trainer/games" element={<Games/>} />
-            <Route index path="/my_own_english_trainer/profile" element={<Profile/>} />
+            <Route index path="/" element={<Home/>} />
+            <Route index path="/learn" element={<Learn/>} />
+            <Route index path="/games" element={<Games/>} />
+            <Route index path="/profile" element={<Profile/>} />
           </Routes>
           <NavBar/>
         </BrowserRouter>
