@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my_own_english_trainer/static/css/main.1e5fe016.css",
-    "main.js": "/my_own_english_trainer/static/js/main.7ce1fa19.js",
+    "main.js": "/my_own_english_trainer/static/js/main.723a3496.js",
     "static/media/profile_2.jpg": "/my_own_english_trainer/static/media/profile_2.3b4cc917b1698c24005c.jpg",
     "static/media/apps-outline.svg": "/my_own_english_trainer/static/media/apps-outline.0f19a5a07a7d945a9fdcdfdc480111de.svg",
     "index.html": "/my_own_english_trainer/index.html",
@@ -10,10 +10,10 @@
     "static/media/learn_svg.svg": "/my_own_english_trainer/static/media/learn_svg.4b7cbe3ba73fcb605dc1db3664b9e23d.svg",
     "static/media/book-outline.svg": "/my_own_english_trainer/static/media/book-outline.600ff157aa72b0acbb5e4cb23cd9fc6c.svg",
     "main.1e5fe016.css.map": "/my_own_english_trainer/static/css/main.1e5fe016.css.map",
-    "main.7ce1fa19.js.map": "/my_own_english_trainer/static/js/main.7ce1fa19.js.map"
+    "main.723a3496.js.map": "/my_own_english_trainer/static/js/main.723a3496.js.map"
   },
   "entrypoints": [
     "static/css/main.1e5fe016.css",
-    "static/js/main.7ce1fa19.js"
+    "static/js/main.723a3496.js"
   ]
 }
